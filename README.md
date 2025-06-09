@@ -62,7 +62,7 @@ cd CUT3R
 micromamba create -n cut3r python=3.11 cmake=3.14.0
 micromamba activate cut3r
 micromamba install cuda-toolkit
-pip install torch==2.4.1
+pip install torch==2.4.1 torchvision
 pip install https://github.com/nerfstudio-project/gsplat/releases/download/v1.5.2/gsplat-1.5.2%2Bpt24cu124-cp310-cp310-linux_x86_64.whl
 pip install -r requirements.txt
 pip install gdown
