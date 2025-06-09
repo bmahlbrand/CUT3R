@@ -65,6 +65,7 @@ micromamba install cuda-toolkit
 pip install torch==2.4.1
 pip install https://github.com/nerfstudio-project/gsplat/releases/download/v1.5.2/gsplat-1.5.2%2Bpt24cu124-cp310-cp310-linux_x86_64.whl
 pip install -r requirements.txt
+pip install gdown
 
 # for evaluation
 pip install evo
